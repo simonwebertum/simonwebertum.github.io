@@ -105,7 +105,38 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <!-- -------------------------- Finsler Multidimensional Scaling -------------------------- -->
+
+          <!-- -------------------------- PhD Dissertation -------------------------- -->
+          <tr onmouseout="phd_stop()" onmouseover="phd_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='phd_image'>
+                  <img src='images/Tum_logo_1.png' width="160"></div>
+                <img src='images/Tum_logo_1.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function phd_start() {
+                  document.getElementById('phd_image').style.opacity = "1";
+                }
+
+                function phd_stop() {
+                  document.getElementById('phd_image').style.opacity = "0";
+                }
+                phd_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle"> 
+              	<papertitle> From Krylov Spaces to Power Series: Advancing Large-Scale Bundle Adjustment with and without Initialization  </papertitle>
+              <br>
+              <strong>Simon Weber</strong>
+              <br>
+              <em>PhD Dissertation, Technical University of Munich</em>, 2025
+              <br>
+              <p></p>
+            </td>
+          </tr>
+			
+			<!-- -------------------------- Finsler Multidimensional Scaling -------------------------- -->
           <tr onmouseout="fmds_stop()" onmouseover="fmds_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
