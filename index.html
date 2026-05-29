@@ -114,6 +114,39 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+		<!-- -------------------------- Functional Attention -------------------------- -->
+          <tr onmouseout="funcattn_stop()" onmouseover="funcattn_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='funcattn_image'>
+                  <img src='images/xiao2026functional_1.png' width="160"></div>
+                <img src='images/xiao2026functional_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function funcattn_start() {
+                  document.getElementById('funcattn_image').style.opacity = "1";
+                }
+
+                function funcattn_stop() {
+                  document.getElementById('funcattn_image').style.opacity = "0";
+                }
+                funcattn_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              	<papertitle> Functional Attention: From Pairwise Affinities to Functional Correspondences  </papertitle>
+              <br>
+              <a href="https://xjffff.github.io">Jiefang Xiao</a>,
+				<a href="https://maolingao.github.io">Maolin Gao</a>,
+              <strong>Simon Weber</strong>,
+              <a href="https://www.guandaoyang.com">Guandao Yang</a>,
+              <a href="https://cvg.cit.tum.de/members/cremers">Daniel Cremers</a>
+              <br>
+              <em>ICML</em>, 2026
+              <br>
+              <p></p>
+            </td>
+          </tr>
 
           <!-- -------------------------- PhD Dissertation -------------------------- -->
           <tr onmouseout="phd_stop()" onmouseover="phd_start()">
